@@ -1,0 +1,90 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+ <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      background: linear-gradient(135deg, #ececec, #c3c3c3);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      display: flex; justify-content: center; align-items: center;
+      user-select: none;
+    }
+    .container {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      width: 400px;
+      max-width: 95vw;
+      padding: 40px 30px;
+      box-sizing: border-box;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    h1 {
+      font-weight: 600;
+      margin-bottom: 32px;
+      font-size: 28px;
+      color: #222;
+      letter-spacing: 0.05em;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1.5px solid #ccc;
+      border-radius: 8px;
+      transition: border-color 0.3s ease;
+      box-sizing: border-box;
+    }
+    input[type="text"]:focus, input[type="password"]:focus {
+      border-color: #0078d7;
+      outline: none;
+      box-shadow: 0 0 8px rgba(0, 120, 215, 0.3);
+      background: #fff;
+    }
+    button {
+      width: 100%;
+      padding: 14px 0;
+      background: #0078d7;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0, 120, 215, 0.4);
+      transition: background 0.3s ease;
+      margin-bottom: 15px;
+      user-select: none;
+    }
+    button:hover {
+      background: #005a9e;
+    }
+    #showSignupBtn {
+      width: auto;
+      padding: 8px 24px;
+      background: transparent;
+      border: 2px solid #0078d7;
+      color: #0078d7;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease, color 0.3s ease;
+      user-select: none;
+    }
+    #showSignupBtn:hover {
+      background: #0078d7;
+      color: white;
+    }
+    #signupForm {
+      display: none;
+      width: 100%;
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    #signupForm input {
+      margin-bottom: 16px;
+    }
+  </style>
